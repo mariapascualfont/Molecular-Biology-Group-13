@@ -1,0 +1,4 @@
+contig_13	geneid_v1.2	Terminal	282	389	 1.94	-	0	contig_13_1
+contig_13	geneid_v1.2	Internal	478	595	 0.31	-	1	contig_13_1
+contig_13	geneid_v1.2	Internal	2699	2768	 0.43	-	2	contig_13_1
+contig_13	geneid_v1.2	Internal	3308	3404	 1.39	-	0	contig_13_1
