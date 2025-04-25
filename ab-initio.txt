@@ -18,6 +18,9 @@ contig_13	geneid_v1.2	Internal	3308	3404	 1.39	-	0	contig_13_1
 
 (we must use bedtools to find the RNA script for these locations)
 
+The code used is in extract_seq.sh and consists of:
+bedtools getfasta -fi contig_13.fa -bed geneid_locations.txt -fo geneid_13.fa 
+
 2. FGenesh
 (again, we assume it's Homo sapiens)
 
