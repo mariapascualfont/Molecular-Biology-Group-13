@@ -18,6 +18,17 @@ There was a protein named "hypothetical protein" but we decided not to use it be
 2. Predict gene using Exonerate:
 - We aligned the protein to the DNA sequence:
 
+The first alignment is with superoxide dismutase [Cu-Zn] [Danio aesculapii]: 
+
+-It aligns the protein XP_056323559.1 with de contig_13. It detects a gene between the positions 285 and 5033 en the DNA. (It is long) 
+
+-The orientation is inverse(-), in the complementary strand.
+
+-The protein aligns in a 98.68% of identity and 99.34% of similitud, that is a good coincidence.
+
+-There are 5 exons which all have 100% identity but one that has 93.55%. And 4 introns.
+
+
 
 3.Select only exon features:
 
