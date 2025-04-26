@@ -1,1 +1,7 @@
+For this project we performed three different lines of work, summarized in .txt files and shell/python scripts.
+
+1. Get the aminoacid sequence and perform a blast to first try to identify our gene and its species
+2. Perform ab initio methods for gene prediction
+3. Perform homology-based methods for gene prediction
+
 
