@@ -4,7 +4,7 @@ Part A: Homology-based annotation
 1. Find  annotations from related species:
     - Perform blastx searc of the contic_13 sequence against the nr database.
     - Using the official website:  https://blast.ncbi.nlm.nih.gov/Blast.cgi
-    - We saw: 
+    - We saw: Danio aesculapii, Danio rerio, Paramisgurnus dabryanus, Hemybarbus mylodon
     - We saved one of the matching proteins into text file (fasta format):
 
 
