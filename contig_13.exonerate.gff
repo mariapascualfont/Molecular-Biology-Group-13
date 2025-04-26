@@ -1,0 +1,5 @@
+deletions 0 ; identity 100.00 ; similarity 100.00
+contig_13	exonerate:protein2genome:local	exon	3308	3404	.	-	.	insertions 3 ; deletions 0 ; identity 93.55 ; similarity 96.77
+contig_13	exonerate:protein2genome:local	exon	2699	2768	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+contig_13	exonerate:protein2genome:local	exon	478	595	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+contig_13	exonerate:protein2genome:local	exon	285	389	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
