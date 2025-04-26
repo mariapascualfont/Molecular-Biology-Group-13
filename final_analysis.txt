@@ -1,8 +1,10 @@
-The main goal of this project was to annotate the genes within contig_13 and functionally characterise its predicted proteins. That means to derive its structural and functional information using different analysis and comparison techniques. For this project we performed three different lines of work, summarized in .txt files and shell/python scripts.
+The main goal of this project was to annotate the genes within contig_13 and functionally characterise its predicted proteins. That means to derive its structural and functional information using different analysis and comparison techniques. For this project we performed two different lines of work, summarized in .txt files and shell/python scripts.
 
-1. Get the aminoacid sequence and perform a blast s
-2. Perform ab initio methods for gene prediction
-3. Perform homology-based methods for gene prediction
+
+1. Perform homology-based methods for gene prediction
+2. Perform ab-initio methods for gene prediction
+
+We decided to start with homology based methods as it gives us a broad idea of the gene and species we're working with. That means that we can later perform ab-initio methods more accurately and 
 
 This three methods have helped us deduce that contig_13 is the gene ____ from species ___.
 
