@@ -2,35 +2,30 @@ For homology based methods, we work with databases of known proteins and find al
 
 Part A: Homology-based annotation
 
-1. Find  annotations from related species:
-- Perform blastx searc of the contic_13 sequence against the nr database.
-- Using the official website:  https://blast.ncbi.nlm.nih.gov/Blast.cgi
-- We saw different proteins in the table of blast and decided to keep the following proteins:
+1. Find annotations from related species:
+Perform blastx search of the contig_13 sequence against the nr database, using the official website:  https://blast.ncbi.nlm.nih.gov/Blast.cgi
+We saw different proteins in the table of blast and decided to keep the following proteins:
 
-Danio aesculapii, Danio rerio, Paramisgurnus dabryanus, Hemybarbus mylodon.
+- superoxide dismutase [Cu-Zn] [Danio aesculapii] 	
+- superoxide dismutase [Cu-Zn] [Danio rerio] 	
+- superoxide dismutase [Cu-Zn] [Paramisgurnus dabryanus] 	
+- Cu/Zn-superoxide dismutase [Hemibarbus mylodon] 
 
-There was a protein named "hypothetical protein" but we decided not to use it because we don't know what codes for and don't know the function.
-      
-- We saved one of the matching proteins into text file (fasta format).
-
-
+And so, from the following species: Danio aesculapii, Danio rerio, Paramisgurnus dabryanus, Hemybarbus mylodon.
+We realized there were some proteins named "hypothetical protein" but we decided not to use it because we don't know what codes for and don't know the function. It was better to use the superoxide dismutases, as we got similarities from different species of fish. We also noticed that though the similarity was high, of 81-93%, the query cover (the percentage of sequence that was coinciding) was quite low, around 10 %. That might mean that this 10% is the coding region of the sequence contig_13.
+We then saved one of the matching proteins into a text file (fasta format).
 
 2. Predict gene using Exonerate:
-- We aligned the protein to the DNA sequence:
+We aligned the protein to the DNA sequence:
+The first alignment is with superoxide dismutase [Cu-Zn] [Danio aesculapii] led us to this information: 
 
-The first alignment is with superoxide dismutase [Cu-Zn] [Danio aesculapii]: 
-
--It aligns the protein XP_056323559.1 with de contig_13. It detects a gene between the positions 285 and 5033 en the DNA. (It is long) 
-
--The orientation is inverse(-), in the complementary strand.
-
--The protein aligns in a 98.68% of identity and 99.34% of similitud, that is a good coincidence.
-
--There are 5 exons which all have 100% identity but one that has 93.55%. And 4 introns.
+- It aligns the protein XP_056323559.1 with de contig_13. It detects a gene between the positions 285 and 5033 en the DNA. (It is long) 
+- The orientation is inverse(-), in the complementary strand.
+- The protein aligns in a 98.68% of identity and 99.34% of similitude, that is a good coincidence.
+- There are 5 exons which all have 100% identity but one that has 93.55%. And 4 introns.
 
 
-
-3.Select only exon features:
+3. Select only exon features:
 
 contig_13	exonerate:protein2genome:local	exon	4962	5033	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
 contig_13	exonerate:protein2genome:local	exon	3308	3404	.	-	.	insertions 3 ; deletions 0 ; identity 93.55 ; similarity 96.77
@@ -40,10 +35,9 @@ contig_13	exonerate:protein2genome:local	exon	285	389	.	-	.	insertions 0 ; delet
 
 
 
-
-
 4.Extract exon sequences:
--We used bedtools to get the exon sequences in fasta format:
+
+We tried to use bedtools to get this exons in fasta format. We could also copy it directly from the terminal. 
 
 5.Concatente exons into a single sequence:
 
