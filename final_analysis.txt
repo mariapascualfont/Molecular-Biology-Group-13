@@ -8,5 +8,8 @@ We decided to start with homology based methods as it gives us a broad idea of t
 
 Eventually, both homology-based and ab-initio methods have helped us deduce that contig_13 is the gene superoxide dismutase [Cu/Zn] from a fish species, probably Danio aesculapii.
 
-#Explanation of the function, localization, etc. of our predicted gene and protein. 
+Superoxide dismutase is an antioxidant enzyme in the fish antioxidant defense system, which can remove excess reactive oxygen species and protect fish from stress-induced oxidative damage. 
+Cu/Zn-SOD mRNA is highly expressed in the liver, brain, and eye, but lowly showed in the stomach, gill, spleen, skin, and muscle.
+The SOD is directrly associated with longer lifespans in some model systems, this indicates that aging and SOD are also related. Interestingly, caloric restriction increases the resistance of organisms to oxidative stress, suggesting that there may be a relationship between stress resistance (induced by SOD) and aging.
+
 
