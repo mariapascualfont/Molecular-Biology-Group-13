@@ -1,3 +1,16 @@
 For homology based methods, we work with databases of known proteins and find alignments within them. 
 
-First we will per
+Part A: Homology-based annotation
+1. Find  annotations from related species:
+    - Perform blastx searc of the contic_13 sequence against the nr database.
+    - Using the official website:  https://blast.ncbi.nlm.nih.gov/Blast.cgi
+    - We saw: 
+    - We saved one of the matching proteins into text file (fasta format):
+
+
+
+2. Predict gene using Exonerate:
+    - We aligned the protein to the DNA sequence:
+
+
+
