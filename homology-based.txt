@@ -7,7 +7,7 @@ Part A: Homology-based annotation
 - Using the official website:  https://blast.ncbi.nlm.nih.gov/Blast.cgi
 - We saw different proteins in the table of blast and decided to keep the following proteins:
 
- Danio aesculapii, Danio rerio, Paramisgurnus dabryanus, Hemybarbus mylodon.
+Danio aesculapii, Danio rerio, Paramisgurnus dabryanus, Hemybarbus mylodon.
 
 There was a protein named "hypothetical protein" but we decided not to use it because we don't know what codes for and don't know the function.
       
