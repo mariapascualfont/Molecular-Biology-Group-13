@@ -17,7 +17,7 @@ There was a protein named "hypothetical protein" but we decided not to use it be
 
 2. Predict gene using Exonerate:
 - We aligned the protein to the DNA sequence:
--
+
 
 3.Select only exon features:
 
