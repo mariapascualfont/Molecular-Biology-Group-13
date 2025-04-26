@@ -5,21 +5,14 @@ We first pass it through gene prediction softwares.
 1. GeneID
 (species is assumed to be Tetraodon nigroviridis, or puffer fish, for the conclusions of our homology-based methods)
 
-## gff-version 2
-## date Fri Apr 25 15:58:33 2025
-## source-version: geneid v 1.2 -- geneid@imim.es
 # Sequence contig_13 - Length = 5227 bps
-# Optimal Gene Structure. 1 genes. Score = 4.06 
-# Gene 1 (Reverse). 4 exons. 131 aa. Score = 4.06 
-contig_13	geneid_v1.2	Terminal	282	389	 1.94	-	0	contig_13_1
-contig_13	geneid_v1.2	Internal	478	595	 0.31	-	1	contig_13_1
-contig_13	geneid_v1.2	Internal	2699	2768	 0.43	-	2	contig_13_1
-contig_13	geneid_v1.2	Internal	3308	3404	 1.39	-	0	contig_13_1
+# Optimal Gene Structure. 1 genes. Score = 2.57 
+# Gene 1 (Reverse). 2 exons. 60 aa. Score = 2.57 
+contig_13	geneid_v1.2	Terminal	282	389	 0.52	-	0	contig_13_1
+contig_13	geneid_v1.2	First	4962	5033	 2.05	-	0	contig_13_1
 
-(we must use bedtools to find the RNA script for these locations)
+We now must use bedtools to find the RNA script for these locations.
 
-The code used is in extract_seq.sh and consists of:
-bedtools getfasta -fi contig_13.fa -bed geneid_locations.txt -fo geneid_13.fa 
 
 2. FGenesh
 (we were able to predict it based on Dario rerio, or zebrafish, this time, more according to the previous results.)
