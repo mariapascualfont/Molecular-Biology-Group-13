@@ -5,3 +5,4 @@ exonerate -m p2g --showtargetgff -q danio_aesculapii.fa -t contig_13.fa
 exonerate -m p2g --showtargetgff -q danio_aesculapii.fa -t contig_13.fa -S F | egrep -w exon > contig_13.exonerate.gff
 
 #Using bedtools to get the exon sequences in fasta fromat
+bedtools getfasta -fi danio_aesculapii.fa -bed contig_13.exonerate.gff > exonerate_cotntig_133.fa
