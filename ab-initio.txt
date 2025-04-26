@@ -22,7 +22,7 @@ The code used is in extract_seq.sh and consists of:
 bedtools getfasta -fi contig_13.fa -bed geneid_locations.txt -fo geneid_13.fa 
 
 2. FGenesh
-(again, we assume it's Homo sapiens)
+(we were able to predict it based on Dario rerio, or zebrafish, this time, more according to the previous results.)
 
  Number of predicted genes 1: in +chain 0, in -chain 1.
  Number of predicted exons 5: in +chain 0, in -chain 5.
