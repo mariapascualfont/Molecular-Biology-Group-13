@@ -26,15 +26,15 @@ bedtools getfasta -fi contig_13.fa -bed geneid_locations.txt -fo geneid_13.fa
 
  Number of predicted genes 1: in +chain 0, in -chain 1.
  Number of predicted exons 5: in +chain 0, in -chain 5.
- Positions of predicted genes and exons: Variant   1 from   1, Score:22.572299 
+ Positions of predicted genes and exons: Variant   1 from   1, Score:56.410522 
    G Str   Feature   Start        End    Score           ORF           Len
 
-   1 -      PolA        28                1.12
-   1 -    1 CDSl       282 -       389    3.42       282 -       389    108
-   1 -    2 CDSi       478 -       595    5.23       478 -       594    117
-   1 -    3 CDSi      2699 -      2768    5.05      2701 -      2766     66
-   1 -    4 CDSi      3308 -      3404    7.52      3309 -      3404     96
-   1 -    5 CDSf      4962 -      5033   10.17      4962 -      5033     72
+   1 -      PolA        28                2.60
+   1 -    1 CDSl       282 -       389   15.87       282 -       389    108
+   1 -    2 CDSi       478 -       595   14.27       478 -       594    117
+   1 -    3 CDSi      2699 -      2768   14.08      2701 -      2766     66
+   1 -    4 CDSi      3308 -      3404    6.18      3309 -      3404     96
+   1 -    5 CDSf      4962 -      5033   15.20      4962 -      5033     72
 
 Predicted protein(s):
 >FGENESH:[mRNA]   1   5 exon (s)    282  -   5033   465 bp, chain -
