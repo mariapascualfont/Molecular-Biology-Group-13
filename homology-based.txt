@@ -3,17 +3,15 @@ For homology based methods, we work with databases of known proteins and find al
 Part A: Homology-based annotation
 
 1. Find  annotations from related species:
-    - Perform blastx searc of the contic_13 sequence against the nr database.
-    - Using the official website:  https://blast.ncbi.nlm.nih.gov/Blast.cgi
-    - We saw different proteins in the table of blast and decided to keep 
-      the following proteins:
+- Perform blastx searc of the contic_13 sequence against the nr database.
+- Using the official website:  https://blast.ncbi.nlm.nih.gov/Blast.cgi
+- We saw different proteins in the table of blast and decided to keep the following proteins:
 
-      Danio aesculapii, Danio rerio, Paramisgurnus dabryanus, Hemybarbus 
-      mylodon.
+ Danio aesculapii, Danio rerio, Paramisgurnus dabryanus, Hemybarbus mylodon.
 
-      There was a protein named "hypothetical protein" but we decided not to       use it.
+There was a protein named "hypothetical protein" but we decided not to use it.
       
-    - We saved one of the matching proteins into text file (fasta format).
+- We saved one of the matching proteins into text file (fasta format).
 
 
 
