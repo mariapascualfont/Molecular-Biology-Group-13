@@ -1,1 +1,3 @@
+For homology based methods, we work with databases of known proteins and find alignments within them. 
 
+First we will per
