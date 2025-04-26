@@ -3,7 +3,7 @@ Ab-initio methods use gene content information and signals in the genomic sequen
 We first pass it through gene prediction softwares. 
 
 1. GeneID
-(species is assumed to be Homo sapiens)
+(species is assumed to be Tetraodon nigroviridis, or puffer fish, for the conclusions of our homology-based methods)
 
 ## gff-version 2
 ## date Fri Apr 25 15:58:33 2025
