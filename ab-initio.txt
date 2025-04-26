@@ -13,6 +13,11 @@ contig_13	geneid_v1.2	First	4962	5033	 2.05	-	0	contig_13_1
 
 We now must use bedtools to find the RNA script for these locations.
 
+>contig_13:281-389
+TCACTGAGTGATGCCGATCACTCCACAGGCCAGACGACCACCAGCGTTGCCAGTTTTAAGACTTTCCTCATTGCCACCCTTCCCCAAGTCATCCTCCTTCTCATGAAT
+>contig_13:4961-5033
+CTCTTGATTGAAATAGACGGTGCCGGTCACTTCACCGGTGCCTTTAAGCACACAAACGGCCTTGTTCACCAT
+
 
 2. FGenesh
 (we were able to predict it based on Dario rerio, or zebrafish, this time, more according to the previous results.)
