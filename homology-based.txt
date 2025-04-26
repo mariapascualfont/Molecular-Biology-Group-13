@@ -16,7 +16,23 @@ There was a protein named "hypothetical protein" but we decided not to use it be
 
 
 2. Predict gene using Exonerate:
-    - We aligned the protein to the DNA sequence:
+- We aligned the protein to the DNA sequence:
+-
+
+3.Select only exon features:
+
+4.Extract exon sequences:
+-We used bedtools to get the exon sequences in fasta format:
+
+5.Concatente exons into a single sequence:
+
+6.Compare homology-based and ab-initio predictions:
+
+
+Part B: Functional Annotation
+
+1
+
 
 
 
