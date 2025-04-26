@@ -9,7 +9,7 @@ Part A: Homology-based annotation
 
  Danio aesculapii, Danio rerio, Paramisgurnus dabryanus, Hemybarbus mylodon.
 
-There was a protein named "hypothetical protein" but we decided not to use it.
+There was a protein named "hypothetical protein" but we decided not to use it because we don't know what codes for and don't know the function.
       
 - We saved one of the matching proteins into text file (fasta format).
 
