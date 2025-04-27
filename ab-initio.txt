@@ -1,5 +1,5 @@
 
-Ab-initio methods use gene content information and signals in the genomic sequence, that in this case will be used to predict the intron areas of a RNA sequence.
+Ab-initio methods use gene content information and signals in the genomic sequence, that in this case will be used to predict the intron areas of a DNA sequence.
 We first pass it through gene prediction softwares. 
 
 1. GeneID
@@ -11,7 +11,7 @@ We first pass it through gene prediction softwares.
 contig_13	geneid_v1.2	Terminal	282	389	 0.52	-	0	contig_13_1
 contig_13	geneid_v1.2	First	4962	5033	 2.05	-	0	contig_13_1
 
-We now must use bedtools to find the RNA script for these locations.
+We now must use bedtools to find the DNA script for these locations.
 
 >contig_13:281-389
 TCACTGAGTGATGCCGATCACTCCACAGGCCAGACGACCACCAGCGTTGCCAGTTTTAAGACTTTCCTCATTGCCACCCTTCCCCAAGTCATCCTCCTTCTCATGAAT
@@ -35,7 +35,7 @@ CTCTTGATTGAAATAGACGGTGCCGGTCACTTCACCGGTGCCTTTAAGCACACAAACGGCCTTGTTCACCAT
    1 -    5 CDSf      4962 -      5033   15.20      4962 -      5033     72
 
 Predicted protein(s):
->FGENESH:[mRNA]   1   5 exon (s)    282  -   5033   465 bp, chain -
+>FGENESH:[mDNA]   1   5 exon (s)    282  -   5033   465 bp, chain -
 ATGGTGAACAAGGCCGTTTGTGTGCTTAAAGGCACCGGTGAAGTGACCGGCACCGTCTAT
 TTCAATCAAGAGGGTGAAAAGAAGCCAGTCAAGGTGACTGGTGAAATTACTGGCCTTACT
 CCAGGAAAACATGGTTTCCACGTCCATGCTTTTGGTGACAACACAAACGGCTGCATCAGT
