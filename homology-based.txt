@@ -26,7 +26,7 @@ We aligned the protein to the DNA sequence:
 
 2) The second alignment is with superoxide dismutase [Cu-Zn] [Dani rerio]:
 - It aligns in reverse (complementary) orientation contig_13 with protein NP_571369.1, gene between 285 and 5033 on target gene (contig_13)
-- the protein aligns with a 100 % identity (each nucleobase/ amino acid alignment-pair is a match and therefore also 100 % similarity)
+- the sequences align with a 100 % identity (each nucleobase alignment-pair is a match and therefore also 100 % similarity)
 - there are four introns and five exons
 
 3) The third aligment is with superoxide dismutase [Cu-Zn] [Paramisgurnus dabryanus]:
@@ -35,6 +35,11 @@ We aligned the protein to the DNA sequence:
 -The orientation of the strand is negative
 - The identity global is a 86.84% and the glogal similituds are a 92.11%, it is not a bad coincidence but a bit low then the previous ones we found.
 -There are 5 exons, the exons (3308–3404) and (4962–5033) are the ones with lower identity.
+
+4) The fourth alignment is with Cu/Zn-superoxide dismutase [Hemibarbus mylodon]:
+- contig_13 aligns in reverse (complementary) orientation with sequence ACR56338.1 coding for Cu/Zn-superoxide dismutase, gene between 287 and 5033 on target gene (contig_13)
+- the global identity and similarity are lower than in the previous species we examined: identity 84.77 ; similarity 89.40
+- 5 exons, 4 introns
 
 3. Select only exon features:
 
