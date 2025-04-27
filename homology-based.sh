@@ -40,7 +40,7 @@ ls -l contig_13.fa.fai
 bedtools getfasta -fi contig_13.fa -bed danio_aesculapii.exonerate.gff >exonerate_danio_aesculapii.fa
 # !bedtools getfasta -fi /content/contig_13.fa -bed exonerate_exons.gff > predicted_exons.far
 
-# Clean the file so that the sequences are in a single line
+# Ceate a new file so that the exon sequences are in a single line
 sed -e '2,$s/>.*//' exonerate_danio_aesculapii.fa | grep -v '^$' >exonerate_danio_aesculapii_single_line.fa
 
 # Using bedtools to get the exon sequences in fasta format
