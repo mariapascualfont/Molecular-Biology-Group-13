@@ -30,6 +30,7 @@ We aligned the protein to the DNA sequence:
 - the protein aligns with a 100 % identity (each nucleobase/ amino acid alignment-pair is a match and therefore also 100 % similarity)
 - there are four introns and five exons
 
+3) The third aligment is with superoxide dismutase [Cu-Zn] [Paramisgurnus dabryanus]:
 
 3. Select only exon features:
 
@@ -49,6 +50,8 @@ contig_13	exonerate:protein2genome:local	exon	2699	2768	.	-	.	insertions 0 ; del
 contig_13	exonerate:protein2genome:local	exon	478	595	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
 contig_13	exonerate:protein2genome:local	exon	285	389	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
 
+3) Paramisgurnus dabryanus:
+
 
 4.Extract exon sequences to store them in new fasta file:
 
@@ -57,7 +60,7 @@ We tried to use bedtools to get this exons in fasta format. We could also copy i
 1)Danio aesculapii:
 
 
-2) Danio rerio
+2) Danio rerio:
 >contig_13:4961-5033
 CTCTTGATTGAAATAGACGGTGCCGGTCACTTCACCGGTGCCTTTAAGCACACAAACGGCCTTGTTCACCAT
 >contig_13:3307-3404
@@ -69,11 +72,14 @@ CACCATGGTCCTCCCAATAATAGAATGTTGGCCTGACAGAGTCAGCATTGCATCCTCGATTTCAATTTTTGCAACACCAC
 >contig_13:284-389
 CTGAGTGATGCCGATCACTCCACAGGCCAGACGACCACCAGCGTTGCCAGTTTTAAGACTTTCCTCATTGCCACCCTTCCCCAAGTCATCCTCCTTCTCATGAAT
 
+3) Paramisgurnus dabryanus:
+
+
 5.Concatente exons into a single sequence:
 
 1) Danio aesculapii:
 
-2) Danio rerio
+2) Danio rerio:
 >contig_13:4961-5033
 CTCTTGATTGAAATAGACGGTGCCGGTCACTTCACCGGTGCCTTTAAGCACACAAACGGCCTTGTTCACCAT
 CGTTTGTGTTGTCACCAAAAGCATGGACGTGGAAACCATGTTTTCCTGGAGTAAGGCCAGTAATTTCACCAGTCACCTTGACTGGCTTCTTTTCACC
@@ -81,6 +87,7 @@ CTCACACTATCGGTTGGCCCACCATGAGTTTTGTCATGAGGGTTGAAGTGCGGACCTGCACTGATGCAGC
 CACCATGGTCCTCCCAATAATAGAATGTTGGCCTGACAGAGTCAGCATTGCATCCTCGATTTCAATTTTTGCAACACCACTGGCATCAGCGGTCACATTACCCAGGTCTCCGACGTGT
 CTGAGTGATGCCGATCACTCCACAGGCCAGACGACCACCAGCGTTGCCAGTTTTAAGACTTTCCTCATTGCCACCCTTCCCCAAGTCATCCTCCTTCTCATGAAT
 
+3) Paramisgurnus dabryanus:
 
 6.Compare homology-based and ab-initio predictions:
 
