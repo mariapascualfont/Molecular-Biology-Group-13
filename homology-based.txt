@@ -17,29 +17,65 @@ We then saved one of the matching proteins into a text file (fasta format).
 
 2. Predict gene using Exonerate:
 We aligned the protein to the DNA sequence:
-The first alignment is with superoxide dismutase [Cu-Zn] [Danio aesculapii] led us to this information: 
+
+1) The first alignment is with superoxide dismutase [Cu-Zn] [Danio aesculapii] led us to this information: 
 
 - It aligns the protein XP_056323559.1 with de contig_13. It detects a gene between the positions 285 and 5033 en the DNA. (It is long) 
 - The orientation is inverse(-), in the complementary strand.
 - The protein aligns in a 98.68% of identity and 99.34% of similitude, that is a good coincidence.
 - There are 5 exons which all have 100% identity but one that has 93.55%. And 4 introns.
 
+2) The second alignment is with superoxide dismutase [Cu-Zn] [Dani rerio]:
+- It aligns in reverse (complementary) orientation contig_13 with protein NP_571369.1, gene between 285 and 5033 on target gene (contig_13)
+- the protein aligns with a 100 % identity (each nucleobase/ amino acid alignment-pair is a match and therefore also 100 % similarity)
+- there are four introns and five exons
+
 
 3. Select only exon features:
 
+1) Danio aesculapii:
 contig_13	exonerate:protein2genome:local	exon	4962	5033	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
 contig_13	exonerate:protein2genome:local	exon	3308	3404	.	-	.	insertions 3 ; deletions 0 ; identity 93.55 ; similarity 96.77
 contig_13	exonerate:protein2genome:local	exon	2699	2768	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
 contig_13	exonerate:protein2genome:local	exon	478	595	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
 contig_13	exonerate:protein2genome:local	exon	285	389	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
 
+2) Danio rerio:
+contig_13.fa -S F| egrep -w exon > Zebrafish.exonerate.gff
+
+contig_13	exonerate:protein2genome:local	exon	4962	5033	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+contig_13	exonerate:protein2genome:local	exon	3308	3404	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+contig_13	exonerate:protein2genome:local	exon	2699	2768	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+contig_13	exonerate:protein2genome:local	exon	478	595	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+contig_13	exonerate:protein2genome:local	exon	285	389	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
 
 
-4.Extract exon sequences:
+4.Extract exon sequences to store them in new fasta file:
 
-We tried to use bedtools to get this exons in fasta format. We could also copy it directly from the terminal. 
+We tried to use bedtools to get this exons in fasta format. We could also copy it directly from the terminal.
+
+2) Danio rerio
+>contig_13:4961-5033
+CTCTTGATTGAAATAGACGGTGCCGGTCACTTCACCGGTGCCTTTAAGCACACAAACGGCCTTGTTCACCAT
+>contig_13:3307-3404
+CGTTTGTGTTGTCACCAAAAGCATGGACGTGGAAACCATGTTTTCCTGGAGTAAGGCCAGTAATTTCACCAGTCACCTTGACTGGCTTCTTTTCACC
+>contig_13:2698-2768
+CTCACACTATCGGTTGGCCCACCATGAGTTTTGTCATGAGGGTTGAAGTGCGGACCTGCACTGATGCAGC
+>contig_13:477-595
+CACCATGGTCCTCCCAATAATAGAATGTTGGCCTGACAGAGTCAGCATTGCATCCTCGATTTCAATTTTTGCAACACCACTGGCATCAGCGGTCACATTACCCAGGTCTCCGACGTGT
+>contig_13:284-389
+CTGAGTGATGCCGATCACTCCACAGGCCAGACGACCACCAGCGTTGCCAGTTTTAAGACTTTCCTCATTGCCACCCTTCCCCAAGTCATCCTCCTTCTCATGAAT
 
 5.Concatente exons into a single sequence:
+
+2) Danio rerio
+>contig_13:4961-5033
+CTCTTGATTGAAATAGACGGTGCCGGTCACTTCACCGGTGCCTTTAAGCACACAAACGGCCTTGTTCACCAT
+CGTTTGTGTTGTCACCAAAAGCATGGACGTGGAAACCATGTTTTCCTGGAGTAAGGCCAGTAATTTCACCAGTCACCTTGACTGGCTTCTTTTCACC
+CTCACACTATCGGTTGGCCCACCATGAGTTTTGTCATGAGGGTTGAAGTGCGGACCTGCACTGATGCAGC
+CACCATGGTCCTCCCAATAATAGAATGTTGGCCTGACAGAGTCAGCATTGCATCCTCGATTTCAATTTTTGCAACACCACTGGCATCAGCGGTCACATTACCCAGGTCTCCGACGTGT
+CTGAGTGATGCCGATCACTCCACAGGCCAGACGACCACCAGCGTTGCCAGTTTTAAGACTTTCCTCATTGCCACCCTTCCCCAAGTCATCCTCCTTCTCATGAAT
+
 
 6.Compare homology-based and ab-initio predictions:
 
