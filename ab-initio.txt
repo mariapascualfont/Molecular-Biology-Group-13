@@ -57,9 +57,9 @@ Next, we continued with the analysis.
 4. Put all predictions together
 
 We'll first concatenate both exons from GeneID and then put all the others together in a single file. 
-Then, we'll put all predictions together with our original gene
+Then, we'll put all predictions together with our original gene in document contig_13_allpredicted.fa
 
-
+5. Run a TCoffee Multiple Sequence Alignment
 
 
 Something we realised of this analysis is that the coding part of the transcript that was given is very small. That matches the blast search that we performed on the beggining, as though the similarities between our sequence and the predicted genes were high, the query cover was quite low. Possibly because of this reason, because there are only small regions which actually correspond to coding regions.
