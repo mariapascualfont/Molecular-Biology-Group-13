@@ -57,6 +57,7 @@ Next, we continued with the analysis.
 4. Put all predictions together
 
 We'll first concatenate both exons from GeneID and then put all the others together in a single file. 
+Then, we'll put all predictions together with our original gene
 
 
 
