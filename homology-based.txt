@@ -34,7 +34,7 @@ We aligned the protein to the DNA sequence:
 -The gen found is between the positions 285 and 5033
 -The orientation of the strand is negative
 - The identity global is a 86.84% and the glogal similituds are a 92.11%, it is not a bad coincidence but a bit low then the previous ones we found.
--There are 5 exons, and the 4 and 5 are the ones with lower identity.
+-There are 5 exons, the exons (3308–3404) and (4962–5033) are the ones with lower identity.
 
 3. Select only exon features:
 
