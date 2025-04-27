@@ -54,6 +54,9 @@ contig_13	exonerate:protein2genome:local	exon	285	389	.	-	.	insertions 0 ; delet
 
 We tried to use bedtools to get this exons in fasta format. We could also copy it directly from the terminal.
 
+1)Danio aesculapii:
+
+
 2) Danio rerio
 >contig_13:4961-5033
 CTCTTGATTGAAATAGACGGTGCCGGTCACTTCACCGGTGCCTTTAAGCACACAAACGGCCTTGTTCACCAT
@@ -67,6 +70,8 @@ CACCATGGTCCTCCCAATAATAGAATGTTGGCCTGACAGAGTCAGCATTGCATCCTCGATTTCAATTTTTGCAACACCAC
 CTGAGTGATGCCGATCACTCCACAGGCCAGACGACCACCAGCGTTGCCAGTTTTAAGACTTTCCTCATTGCCACCCTTCCCCAAGTCATCCTCCTTCTCATGAAT
 
 5.Concatente exons into a single sequence:
+
+1) Danio aesculapii:
 
 2) Danio rerio
 >contig_13:4961-5033
@@ -82,7 +87,20 @@ CTGAGTGATGCCGATCACTCCACAGGCCAGACGACCACCAGCGTTGCCAGTTTTAAGACTTTCCTCATTGCCACCCTTCC
 
 Part B: Functional Annotation
 
-1
+1. Search information in Gene Ontology (GO):
+https://geneontology.org
+  -Check if have associated ontology terms(molecular function, biological process, cellular component).
+
+2. Search information in UniProt:
+https://www.uniprot.org
+   -Collect information, descriptions and synonyms.
+
+3. Analyzse conserved domains with InterProScan:
+   -Upload the gene sequence to https://www.ebi.ac.uk/interpro/search/sequence/
+- Review the protein domains found, conserved motifs, and associated functions.
+-Use the new information to improve searches in Gene Ontology.
+
+
 
 
 
