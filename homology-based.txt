@@ -191,6 +191,10 @@ https://geneontology.org
 
 2. Search information in UniProt:
 https://www.uniprot.org
+
+https://www.uniprot.org/uniprotkb/O73872/entry
+
+
    -Collect information, descriptions and synonyms.
 
 3. Analyzse conserved domains with InterProScan:
