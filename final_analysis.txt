@@ -1,13 +1,11 @@
 The main goal of this project was to annotate the genes within contig_13 and functionally characterise its predicted proteins. That means to derive its structural and functional information using different analysis and comparison techniques. For this project we performed two different lines of work, summarized in .txt files and .sh scripts.
 
-
 1. Perform homology-based methods for gene prediction
 2. Perform ab-initio methods for gene prediction
 
 We decided to start with homology based methods as it gives us a broad idea of the gene and species we're working with. That means that we can later perform ab-initio methods more accurately with the information we already have. As a matter of fact, we wanted to first manually transcribe the nucleotides to aminoacids using a python script and perform a blast, but the sequence that was given to us couldn't be divided evenly by three, so it required that start and stop codons were found. Instead of modifying the code, it was easier to perform the blast directly with a blastx, that takes a nucleotide sequence and turns it into an aminoacid sequence to then compare it with the database. That was the first step of homology-based methods, so we decided that it was the best starting point for the project, and that we could skip the first part altogether. 
 
-
-Eventually, both homology-based and ab-initio methods have helped us deduce that contig_13 is the gene superoxide dismutase [Cu/Zn] from a fish species, probably Danio aesculapii.
+Eventually, both homology-based and ab-initio methods have helped us deduce that contig_13 is the gene superoxide dismutase [Cu/Zn] from a fish species, probably Danio aesculapii or Danio rerio (zebrafish).
 
 Superoxide dismutase is an antioxidant enzyme in the fish antioxidant defense system, which can remove excess reactive oxygen species and protect fish from stress-induced oxidative damage. 
 Cu/Zn-SOD mRNA is highly expressed in the liver, brain, and eye, but lowly showed in the stomach, gill, spleen, skin, and muscle.
