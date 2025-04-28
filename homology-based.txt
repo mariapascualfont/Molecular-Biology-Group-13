@@ -205,6 +205,22 @@ https://www.uniprot.org/uniprotkb/O73872/entry
 - Review the protein domains found, conserved motifs, and associated functions.
 -Use the new information to improve searches in Gene Ontology.
 
+Questions to answer:
+
+  Does contig13 have any annotation (ontology term, synonym, or definition) in GO?
+  
+  What information about contig13 is available on UniProt?
+  
+  What biological or molecular functions can be inferred from InterProScan?
+  
+  Could the new information help you better query the GO database?
+  
+  Can you know the species from which contig13 comes?
+  
+  Can you think of an alternative method or tool to get more functional information?
+  
+
+
 
 
 
