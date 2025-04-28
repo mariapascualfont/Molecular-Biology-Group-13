@@ -187,6 +187,9 @@ Part B: Functional Annotation
 
 1. Search information in Gene Ontology (GO):
 https://geneontology.org
+
+https://amigo.geneontology.org/amigo/gene_product/ZFIN:ZDB-GENE-990415-258
+
   -Check if have associated ontology terms(molecular function, biological process, cellular component).
 
 2. Search information in UniProt:
