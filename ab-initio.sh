@@ -7,6 +7,6 @@ echo ">geneid_13"\ > geneid_13_singleline.fa
 sed -e 's/>contig_13:281-389//' -e 's/>contig_13:4961-5033//' geneid_13.fa | grep -v '^$' >> geneid_13_singleline.fa
 
 #This code is used to put all predictions together in a single file
-cat contig_13.fa fgenesh_13.fa geneid_13_singleline.fa > contig_13_allpredicted.fa
+cat fgenesh_13.fa geneid_13_singleline.fa > contig_13_allpredicted.fa
 
 
