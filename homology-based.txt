@@ -182,6 +182,10 @@ AGTGATGCCGATCACTCCACAGGCCAGACGACCACCAGCGTTGCCAGTTTTAAGACTTTCCTCATTGCCACCCTTCCCCA
 
 6.Compare homology-based and ab-initio predictions:
 
+After doing the ab-initio methodology, we decided to run a T Coffee with the four homology-based predictions and the FGenesh prediction (we found it was the more trustworthy prediction, as it had 5 exons instead of 2 like GeneID)
+
+The results suggested the homology based predictions inbetween species are fantastic, almost identical, so it is a very trustful result. We can see that there's also a lot of coincidences with the ab-initio prediction from zebrafish species, so this suggest the species is probably correct. We have a lot of confidence on the results of our predictions, especially the homology-based methods. The FGenesh is slightly longer, being 5 exons long instead of 4, but still shows a lot of coincidences.
+
 
 Part B: Functional Annotation
 
