@@ -10,5 +10,9 @@ sed -e 's/>contig_13:281-389//' -e 's/>contig_13:4961-5033//' geneid_13.fa | gre
 cat fgenesh_13.fa geneid_13_singleline.fa > contig_13_abinitio.fa
 
 #This code is used to put Fgenesh prediction with the homology based prediction to run a second T Coffee
-cat fgenesh_13.fa danio_rerio.fa danio_aesculapii.fa > contig_13_allpredicted.fa
+
+cat fgenesh_13.fa > contig_13_allpredicted.fa
+echo ">Danio aesculapii:"\ >> contig_13_allpredicted.fa
+sed -e 's/>contig_13:281-389//' exonerate_danio_aesculapii_singlefile.fa | grep -v '^$' >> contig_13_allpredicted.fa
+
 
