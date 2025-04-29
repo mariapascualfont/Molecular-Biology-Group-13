@@ -61,8 +61,17 @@ Then, we'll put all predictions together with our original gene in document cont
 
 5. Run a TCoffee Multiple Sequence Alignment
 
+First T Coffee MSA was just ab-initio mehods:
+
 Because there's a sequence length limit, we couldn't run the original transcript with the predictions. In another webpage without this restriction, we realized that running the three sequences at one provided no useful insights. The predicted genes appeared scattered throughout the original transcript. 
 
 We decided to stick with the strategy of running the T-coffee just with the predicted parts to see how similar they were to each other. The result was a score of 405, so it is quite satisfactory. Most of the transcripts don't fully coincide, but there are some regions with exact coincidences, which indicates that it is very likely a coding region. We can see how Fgenesh is longer and geneid just coincides in some parts. That is because Fgenesh, that was predicted with zebrafish, contained 5 exons, while geneid, that was computed according to puffer fish, only detected 2. We have more confidence of Fgenesh, as zebrafish was also analyzed in homology-based methodology. 
 
 Finally, something we realised of this analysis is that the coding part of the transcript that was given is very small. That matches the blast search that we performed on the beggining, as though the similarities between our sequence and the predicted genes were high, the query cover was quite low. Possibly because of this reason, because there are only small regions which actually correspond to coding regions.
+
+
+The second was ab-initio and homology-based methods:
+
+After doing the ab-initio methodology, we decided to run a T Coffee with the four homology-based predictions and the FGenesh prediction (we found it was the more trustworthy prediction, as it had 5 exons instead of 2 like GeneID)
+
+The results suggested the homology based predictions inbetween species are fantastic, almost identical, so it is a very trustful result. We can see that there's also a lot of coincidences with the ab-initio prediction from zebrafish species, so this suggest the species is probably correct. We have a lot of confidence on the results of our predictions, especially the homology-based methods. The FGenesh is slightly longer, being 5 exons long instead of 4, but still shows a lot of coincidences.
