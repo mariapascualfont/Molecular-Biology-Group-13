@@ -198,6 +198,8 @@ Molecular Function:
 - Superoxie dismutase activity (GO:0004784)
 - Copper ion binding (GO:0005507)
 - Zinc ion binding (GO:0008270)
+- Oxidoreductase activity (GO:0016491)
+- Antioxidant activity (GO:0016209)
 
 Biological Process:
 - Removal of superoxide radicals (GO:0019430)
