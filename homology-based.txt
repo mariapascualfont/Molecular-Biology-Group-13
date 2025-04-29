@@ -192,32 +192,107 @@ https://geneontology.org
 
 https://amigo.geneontology.org/amigo/gene_product/ZFIN:ZDB-GENE-990415-258
 
-  -Check if have associated ontology terms(molecular function, biological process, cellular component).
+The zebrafish sod1 gene is associated with several GO terms that describe its molecular function, biological processes, and cellular components:
+
+Molecular Function:
+- Superoxie dismutase activity (GO:0004784)
+- Copper ion binding (GO:0005507)
+- Zinc ion binding (GO:0008270)
+
+Biological Process:
+- Removal of superoxide radicals (GO:0019430)
+- Response to oxidative stress (GO:0006979)
+- Aging (GO:0007568)​
+
+Cellular Components:
+- Cytoplasm (GO:0005737)
+- Nucleus (GO:0005634)
+
+These annotations highlite the gene's role in protecting cells form oxidative damage by catalyzing the dismutation of superoxide radicals into oxygen and hydrogen peroxide.
+
 
 2. Search information in UniProt:
 https://www.uniprot.org
 
 https://www.uniprot.org/uniprotkb/O73872/entry
 
+In the UniProt database, the zebrafish sod1 protein is listed under the accession number O73872
 
-   -Collect information, descriptions and synonyms.
+- Protein Name: Superoxide dismutase [Cu-Zn]
+- Organism: Danio rerio (zebrafish)
+- Sequence Lenght: 154 amino acids
+- Molecular Weight: Approximately 15.9 kDa
+- Function: Destroys radicals which are normally produced within the cells and which are toxic to biological systems.​
+
+The protein contains a conserved Sod_Cu domain (Pfam: PF00080), characteristic of copper/zinc superoxide dismutases
 
 3. Analyzse conserved domains with InterProScan:
    -Upload the gene sequence to https://www.ebi.ac.uk/interpro/search/sequence/
 - Review the protein domains found, conserved motifs, and associated functions.
 -Use the new information to improve searches in Gene Ontology.
 
+
+- Protein Family: Cu/Zn superoxide dismutase (IPR001424)
+- Domain: Sod_Cu (PF00080)
+- Function: Catalyzes the conversion of superoxide radicals to molecular oxygen and hydrogen peroxide, thus playing a critical role in cellular defense against oxidative stress.
+
+
 Questions to answer:
 
-  Does contig13 have any annotation (ontology term, synonym, or definition) in GO?
+  Does it have any annotation (ontology term, synonym, or definition) in GO?
+
+    Yes, the gene is annotated with several Gene Ontology terms:
   
-  What information about contig13 is available on UniProt?
+      - GO:0004784 – superoxide dismutase activity
+      
+      - GO:0005507 – copper ion binding
+      
+      - GO:0008270 – zinc ion binding
+      
+      - GO:0006979 – response to oxidative stress
+      
+      - GO:0019430 – removal of superoxide radicals
+      
+      - GO:0005737 – cytoplasm
+      
+      - GO:0005634 – nucleus
+  
+    
+  What information about it is available on UniProt?
+    The UniProt entry includes:
+      - Protein Name: Superoxide dismutase [Cu-Zn]
+      
+      - Function: Neutralizes superoxide radicals by converting them to hydrogen peroxide and oxygen
+      
+      - Sequence Length: 154 amino acids
+      
+      - Domains: Sod_Cu (copper/zinc-binding domain)
+      
+      - Enzyme Commission (EC) Number: EC 1.15.1.1
+      
+      - Gene Name: sod1
+      
+      - Structure: Homodimer
+      
+      - Location: Cytoplasm
+      
   
   What biological or molecular functions can be inferred from InterProScan?
+
+    InterProScan analysis (based on conserved domains and signatures) shows:
+
+    - Protein family: Cu/Zn superoxide dismutase (IPR001424)
+
+    - Domain: Sod_Cu (PF00080)
+
+    - Function: Neutralization of superoxide radicals; metal ion (copper/zinc) binding; oxidative stress response.
+
   
   Could the new information help you better query the GO database?
+
+    Yes, Knowing the exact GO terms, domain names, and enzyme activity (e.g., EC 1.15.1.1) allows for more precise queries in the GO database
   
-  Can you know the species from which contig13 comes?
+  Can you know the species from which it comes?
   
   Can you think of an alternative method or tool to get more functional information?
   
