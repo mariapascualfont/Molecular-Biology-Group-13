@@ -13,6 +13,10 @@ cat fgenesh_13.fa geneid_13_singleline.fa > contig_13_abinitio.fa
 
 cat fgenesh_13.fa > contig_13_allpredicted.fa
 echo ">Danio aesculapii:"\ >> contig_13_allpredicted.fa
-sed -e 's/>contig_13:281-389//' exonerate_danio_aesculapii_singlefile.fa | grep -v '^$' >> contig_13_allpredicted.fa
-
-
+sed -e 's/>contig_13:4961-5033//' exonerate_danio_aesculapii_singlefile.fa | grep -v '^$' >> contig_13_allpredicted.fa
+echo ">Danio rerio:"\ >> contig_13_allpredicted.fa
+sed -e 's/>contig_13:4961-5033//' exonerate_danio_rerio_singlefile.fa | grep -v '^$' >> contig_13_allpredicted.fa
+echo ">Paramisgurnus dabryanus:"\ >> contig_13_allpredicted.fa
+sed -e 's/>contig_13:4961-5033//' exonerate_paramisgurnus_dabryanus_singlefile.fa | grep -v '^$' >> contig_13_allpredicted.fa
+echo ">Hemibarbus mylodon:"\ >> contig_13_allpredicted.fa
+sed -e 's/>contig_13:4961-5033//' exonerate_hemibarbus_mylodon_singlefile.fa | grep -v '^$' >> contig_13_allpredicted.fa
