@@ -196,21 +196,57 @@ The zebrafish sod1 gene is associated with several GO terms that describe its mo
 
 Molecular Function:
 - Superoxie dismutase activity (GO:0004784)
+This is the core function: catalyzing the conversion of two superoxide radicals (O₂⁻) into molecular oxygen (O₂) and hydrogen peroxide (H₂O₂), reducing oxidative stress in the cell.
+
 - Copper ion binding (GO:0005507)
+Indicates that the protein binds to copper ions, which are essential for its enzymatic activity. What copper does is act as a redox-active center in the catalytic cycle.
+
 - Zinc ion binding (GO:0008270)
+The protein also binds zinc, which stabilizes the structure of the enzyme, though it does not directly participate in redox reactions.
+
 - Oxidoreductase activity (GO:0016491)
+Refers to the broader class of enzymes that facilitate oxidation-reduction (redox) reactions. SOD1 falls under this group because it mediates the redox conversion of superoxide radicals.
+
 - Antioxidant activity (GO:0016209)
+Highlights the gene's overall protective role in defending the cell against oxidative damage, especially from reactive oxygen species (ROS).
+
 
 Biological Process:
-- Removal of superoxide radicals (GO:0019430)
-- Response to oxidative stress (GO:0006979)
-- Aging (GO:0007568)​
+
+- Neuron cellular homeostasis (GO:0043025):
+Contributes to maintain a stable internal environment in neurons, particularly by protecting them from oxidative damage.
+
+- Response to metal ion (GO:0010038):
+This means that the gene might be regulated in response to levels of the metal ions such as copper or zinc, reflecting its need for these cofactors.
+
+- Response to methylmercury (GO:0010286):
+This suggests that the gene could be involved in the cellular response to toxic substances that can generate oxidative stress.
+
+- Response to xenobiotic stimulus (GO:0009410):
+Shows a role in responding to foreign chemical compounds, again relating these to its role to detoxification and oxidative stress management.
+
+-Superoxide metabolic process (GO:0006801):
+Plays a direct role in processing and detoxifying superoxide radicals, which are byproducts of cellular respiration and other processes.
+
 
 Cellular Components:
-- Cytoplasm (GO:0005737)
-- Nucleus (GO:0005634)
+- Cytoplasm (GO:0005737):
+It is the main site of Sod1 activity, where it detoxifies superoxide radicals produced during cellular respiration and metabolism.
 
-These annotations highlite the gene's role in protecting cells form oxidative damage by catalyzing the dismutation of superoxide radicals into oxygen and hydrogen peroxide.
+- Cytosol (GO:0005829):
+More specific, meaning that Sod1 is found in the cytosolic portion of the cytoplasm as it is soluble.
+
+- Mitochondrion (GO:0005739):
+Some can be found here, affecting mitochondrial redox balance indirectly.
+
+- Nucleus (GO:0005634):
+There is evidence demonstrating that Sod1 can translocate to the nucleus under stress conditions to protect nuclear components from oxidative damage.
+
+- Peroxisome (GO:0005777):
+Sod1 can also have a role in peroxisome, organelles that contribute to reactive oxygen species metabolism.
+
+All these GO annotations show a detailed picture of Sod1 as a gene related to oxidative stress defense.  Summarizing it, it protects DNA, proteins, lipids and other molecules or cells from oxidative damage, which is critical in aging, neurodegeneration, and disease.
+
 
 
 2. Search information in UniProt:
