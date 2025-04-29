@@ -3,7 +3,7 @@ Ab-initio methods use gene content information and signals in the genomic sequen
 We first pass it through gene prediction softwares. 
 
 1. GeneID
-(species is assumed to be Tetraodon nigroviridis, or puffer fish, for the conclusions of our homology-based methods)
+(We tried with different species: Homo sapiens (human),Drosophila melanogaster (fruit fly), with varying results, and finally species is assumed to be Tetraodon nigroviridis, or puffer fish, for the conclusions of our homology-based methods)
 
 # Sequence contig_13 - Length = 5227 bps
 # Optimal Gene Structure. 1 genes. Score = 2.57 
